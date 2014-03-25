@@ -15,6 +15,10 @@ public class Collisionaura : MonoBehaviour {
 				Debug.Log("pasaiecube");
 			script.selection+=3;
 		}
+	else if(ohter.gameObject.tag=="enncube")
+	{
+		Debug.Log("aouch");
+	}
 	if (other.gameObject.tag=="ennsphere"&& script.randomnum==0)
 			{
 				Debug.Log("pasaisphere");
